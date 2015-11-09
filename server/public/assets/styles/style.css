@@ -1,0 +1,64 @@
+.header-text{
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background-color: white;
+    border-bottom: 1px solid lightgrey;
+}
+
+#left {
+    background-color: grey;
+    margin-left: 50px;
+    padding: 30px;
+    position: fixed;
+    top: 15%;
+    width: 30%;
+}
+
+#messageContainer {
+    position: relative;
+    left: 35%;
+    width: 60%;
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
+
+
+label{
+    display: block;
+    margin-top: 20px;
+}
+
+input, textarea {
+    margin-top: 5px;
+}
+
+#submit {
+    margin: 50px 0;
+}
+
+input[type=text], textarea {
+    width: 100%;
+}
+
+.name {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.message {
+    font-size: 18px;
+}
+
+.delete {
+    margin-top: 10px;
+}
+
+.messageBlock {
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 10px 20px;
+    background-color: lightgrey;
+}
